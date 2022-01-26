@@ -14,19 +14,15 @@ Nostaldja is an app for tracking fads across decades.
 
 ## Instructions
 
-1. There's no need to clone this repo. Simply create a new Django project called `nostaldja_project` and your app should be
-called `nostaldja`. Follow the [installation instructions](../../../django-installation)
+1. Follow the [installation instructions](../../../django-installation)
 1. Set up your virtual environment and activate it.
 1. Install dependencies.
 1. Fulfill the listed requirements.
 
-You're encouraged to work in pairs for this lab. Submission is NOT required for this lab.
 
 ## Setup
 
-Read through the setup instructions from the Django
-[Models](../../../django-models) and
-[Views and Templates](../../../django-views-and-templates)
+Read through the setup instructions from our previous labs
 
 The goal of this app is to have a full-CRUD application with multiple views.
 
