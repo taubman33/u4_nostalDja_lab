@@ -1,10 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .forms import DecadeForm, FadForm
 
 # Create your views here.
 
 
 from .models import Decade, Fad
+from .form import DecadeForm, FadForm
 
 
 def decade_list(request):
@@ -61,7 +62,7 @@ def decade_edit(request, pk):
 
 
 def fad_edit(request, pk):
-    fad = Song.objects.get(pk=pk)
+    fad = Fad.objects.get(pk=pk)
     if request.method == "POST":
         form = FadForm(request.POST, instance=fad)
         if form.is_valid():
