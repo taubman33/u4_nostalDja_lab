@@ -14,7 +14,7 @@ Nostaldja is an app for tracking fads across decades.
 
 ## Instructions
 
-1. Follow the [installation instructions](../../../django-installation)
+1. Follow the [installation instructions](https://github.com/SEI-R-11-8/u4_django_install_and_models)
 1. Set up your virtual environment and activate it.
 1. Install dependencies.
 1. Fulfill the listed requirements.
